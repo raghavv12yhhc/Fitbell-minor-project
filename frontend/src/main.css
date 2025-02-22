@@ -1,0 +1,49 @@
+/* Other styles in App.css */
+
+/* Global reset for MainPage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* MainPage styles */
+   body {
+    background-color: #0a0a0a;  /* Black background */
+    color: #fff;  /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+  }
+  
+  .main-page-container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;  /* Optional: Controls max width */
+  }
+  
+  .main-page-container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .main-page-container div p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  
+  button {
+    background-color: #ff3c78;  /* Red button */
+    color: #fff;  /* White text on button */
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff1744;  /* Darker red on hover */
+  }

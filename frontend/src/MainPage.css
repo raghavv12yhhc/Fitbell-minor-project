@@ -1,0 +1,38 @@
+.main-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #0a0a0a;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff3c78;
+  }
+  
+  .main-container p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .main-container button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .main-container button:hover {
+    background-color: #0056b3;
+  }
+  
